@@ -1,0 +1,139 @@
+<h3 class="text-center text-danger" [class.animated]="true" (click)="add($event)">welcome to angular</h3>
+<app-home></app-home>
+<app-amaze></app-amaze>
+<app-table></app-table>
+<app-img></app-img>
+<app-badge></app-badge>
+<app-bread-comb></app-bread-comb>
+<div class="am-btn-toolbar">
+  <div class="am-btn-group">...</div>
+  <div class="am-btn-group">...</div>
+  <div class="am-btn-group">...</div>
+</div>
+<a href="" class="am-close am-close-alt am-close-spin">&times;</a>
+<a href="" class="am-close am-close-alt am-close-spin am-icon-times"></a>
+<article class="am-comment col-md-6">
+  <a href="#link-to-user-home">
+    <img src="" alt="" class="am-comment-avatar" width="48" height="48"/>
+  </a>
+
+  <div class="am-comment-main">
+    <header class="am-comment-hd">
+      <!--<h3 class="am-comment-title">评论标题</h3>-->
+      <div class="am-comment-meta">
+        <a href="#link-to-user" class="am-comment-author">某人</a>
+        评论于 <time datetime="2013-07-27T04:54:29-07:00" title="2013年7月27日 下午7:54 格林尼治标准时间+0800">2014-7-12 15:30</time>
+      </div>
+    </header>
+
+    <div class="am-comment-bd">
+      那，那是一封写给南部母亲的信。我茫然站在骑楼下，我又看到永远的樱子走到街心。其实雨下得并不大，却是一生一世中最大的一场雨。而那封信是这样写的，年轻的樱子知不知道呢？
+    </div>
+  </div>
+</article>
+<ul>
+  <li><i class="am-icon-qq am-icon-fw"></i> QQ</li>
+  <li><i class="am-icon-skype am-icon-fw"></i> Skype</li>
+  <li><i class="am-icon-github am-icon-fw"></i> GitHub</li>
+  <li><i class="am-icon-cc-amex am-icon-fw"></i> Amex</li>
+  <li><i class="am-icon-wifi am-icon-fw"></i> Amex</li>
+</ul>
+<div class="am-animation-fade">...</div>
+
+<span class="am-icon-cog am-animation-spin"></span>
+<article class="am-article col-md-6">
+  <div class="am-article-hd">
+    <h1 class="am-article-title">永远的蝴蝶</h1>
+    <p class="am-article-meta">陈启佑（台湾）</p>
+  </div>
+
+  <div class="am-article-bd">
+    <p class="am-article-lead">
+      《永远的蝴蝶》就像一支低沉而哀怨的悲曲，幽幽道来，委婉动人。读罢此文，
+      脑海中一直浮现着这样一个场景：阴雨中，樱子如蝴蝶般轻轻飞了起来，又缓缓
+      落到了街面上。雨是冰凉的，街面是湿冷的，蝴蝶的飘飞是凄美的，又是令人伤痛的。
+    </p>
+  </div>
+</article>
+<form action="" class="am-form" data-am-validator>
+  <p>
+    <input type="text" class="am-form-field" placeholder="日历组件" data-am-datepicker readonly required />
+  </p>
+  <p><button class="am-btn am-btn-primary">提交</button></p>
+</form>
+<select multiple data-am-selected>
+  <option value="a">Apple</option>
+  <option value="b">Banana</option>
+  <option value="o">Orange</option>
+  <option value="m">Mango</option>
+</select>
+<select data-am-selected>
+  <option value="a">Apple</option>
+  <option value="b" selected>Banana</option>
+  <option value="o">Orange</option>
+  <option value="m">Mango</option>
+  <option value="d" disabled>禁用鸟</option>
+</select>
+<button class="am-btn am-btn-primary" data-am-collapse="{target: '#collapse-nav'}">Menu <i class="am-icon-bars"></i></button>
+<nav>
+  <ul id="collapse-nav" class="am-nav am-collapse">
+    <li><a href="">开始使用</a></li>
+    <li><a href="">CSS 介绍</a></li>
+    <li class="am-active"><a href="">JS 介绍</a></li>
+    <li><a href="">功能定制</a></li>
+  </ul>
+</nav>
+<button
+  type="button"
+  class="am-btn am-btn-primary"
+  data-am-modal="{target: '#my-alert'}">
+  Alert
+</button>
+
+<div class="am-modal am-modal-alert" tabindex="-1" id="my-alert">
+  <div class="am-modal-dialog">
+    <div class="am-modal-hd">Amaze UI</div>
+    <div class="am-modal-bd">
+      Hello world！
+    </div>
+    <div class="am-modal-footer">
+      <span class="am-modal-btn">确定</span>
+    </div>
+  </div>
+</div>
+<div class="am-tabs" data-am-tabs="{noSwipe: 1}" id="doc-tab-demo-1">
+  <ul class="am-tabs-nav am-nav am-nav-tabs">
+    <li class="am-active"><a href="javascript: void(0)">流浪</a></li>
+    <li><a href="javascript: void(0)">流浪</a></li>
+    <li><a href="javascript: void(0)">再流浪</a></li>
+  </ul>
+
+  <div class="am-tabs-bd">
+    <div class="am-tab-panel am-active">
+      ...
+    </div>
+    <div class="am-tab-panel">
+      ...
+    </div>
+    <div class="am-tab-panel">
+      ...
+    </div>
+  </div>
+</div>
+<br />
+<button type="button" class="am-btn am-btn-primary js-append-tab">插入 Tab</button>
+<button class="am-btn am-btn-success" data-am-offcanvas="{target: '#doc-oc-demo3'}">右侧显示边栏</button>
+
+<!-- 侧边栏内容 -->
+<div id="doc-oc-demo3" class="am-offcanvas">
+  <div class="am-offcanvas-bar am-offcanvas-bar-flip">
+    <div class="am-offcanvas-content">
+      <p>
+        我不愿让你一个人 <br/>
+        承受这世界的残忍 <br/>
+        我不愿眼泪陪你到 永恒 <br/>
+      </p>
+      <p><a href="http://music.163.com/#/song?id=385554" target="_blank">网易音乐</a>      </p>
+    </div>
+  </div>
+</div>
